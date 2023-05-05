@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Лаб3_форми</title>
+</head>
+<body>
+<style>
+
+  .zona{
+  	height:60px;
+  	width:400px
+  }
+
+</style>
+<table border="2px solid black" width="50%" height="400px">
+  <tr>
+    <td class="head" align="center" colspan="2"><b><big>Pizza Shop 2.0</b></td>
+  </tr>
+   <tr>
+    <td width="30%">Name</td>
+    <td width="70%"><input type="textbox" name="name" size="25px"></td>
+  </tr>
+  <tr>
+    <td width="30%">Pizza Topping</td>
+    <td width="70%"><input type="radio" name="radio" size="25px">Supreme<br>
+  <input type="radio" name="radio" size="25">Vegetarian<br>
+  <input type="radio" name="radio" size="25">Hawaiian<br>
+  </tr>
+   <tr>
+    <td width="30%">Pizza Sauce</td>
+    <td>
+      <select>
+    	<option selected>Tomato</option>
+     <option>Fish</option>
+     <option>Meat</option>
+    </td>
+  </tr>
+ <tr>
+    <td>Optional Extras</td>
+    <td width="70%"><input type="checkbox" name="chois1">Extra Cheese
+<input type="checkbox" name="chois2">Gluten Free Base
+    </td>
+      </tr>
+<tr>
+    <td colspan="2">Delivery Instructions:<br>
+      <textarea class="zona"></textarea>
+    </td>
+      </tr>
+<tr><td colspan="2"><input type="button" value="Send my Order" title="Відправити">
+  </td>
+    </tr>
+</table>
+<html>
